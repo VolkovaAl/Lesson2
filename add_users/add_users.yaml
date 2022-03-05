@@ -1,7 +1,6 @@
 ---
-- name: Add users and encrypt file
+- name: Add users to host
   hosts: test
-  gather_facts: false
   vars_files:
     - ./credentials/user_credentials.yaml
   tasks:
