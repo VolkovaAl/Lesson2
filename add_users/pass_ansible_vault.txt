@@ -1,0 +1,2 @@
+Пароль от зашифрованного файла credentials/user_credentials.yaml: Fdcnhfkbz
+ansible-playbook add_users.yaml --ask-vault-pass
